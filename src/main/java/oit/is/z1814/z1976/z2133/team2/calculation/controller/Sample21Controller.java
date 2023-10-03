@@ -39,8 +39,8 @@ public class Sample21Controller {
    * @param model
    * @return
    */
-  @GetMapping("/sample22/{param1}/{param2}")
-  public String sample22(@PathVariable String param1, @PathVariable String param2, ModelMap model) {
+  @GetMapping("/sample21/{param1}/{param2}")
+  public String sample21(@PathVariable String param1, @PathVariable String param2, ModelMap model) {
     int tasu = Integer.parseInt(param1);// param1が文字列なので，parseIntでint型の数値に変換する
     int tasareru = Integer.parseInt(param2);
     int tasuResult = tasu + tasareru;
